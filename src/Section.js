@@ -7,6 +7,7 @@ export default function Section() {
         <img
           className="today"
           src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
         />
         <p className="blackText">
           <span className="temperature tempSpan tempElement" id="temp-element">
