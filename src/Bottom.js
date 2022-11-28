@@ -5,6 +5,7 @@ export default function Bottom() {
     <div id="for-link">
       <a
         className="githubLink"
+        rel="noreferrer"
         href="https://github.com/sparrow2100/weather-app-final-project"
         target="_blank"
       >
