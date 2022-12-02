@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Top() {
+export default function Search() {
   return (
     <div className="search col-5">
       <form>
