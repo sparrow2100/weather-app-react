@@ -208,6 +208,14 @@ p {
   font-family: Raleway, sans-serif;
 }
 
+.loading {
+  color: #95aef2;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 #for-link {
   display: block;
   margin: 0 auto;

@@ -106,5 +106,5 @@ export default function Container() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  return <div>Loading...</div>;
+  return <div className="loading">Loading...</div>;
 }
