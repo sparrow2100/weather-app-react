@@ -75,19 +75,6 @@ export default function Container() {
                 °C
               </span>
             </p>
-
-            <p className="celsiusFarenheit">
-              <button className="celsius celsiusLink" id="celsius-button">
-                C
-              </button>
-              |
-              <button
-                className="farenheit fahrenheitLink"
-                id="fahrenheit-button"
-              >
-                F
-              </button>
-            </p>
           </div>
           <br />
           <div className="extraInfo">
