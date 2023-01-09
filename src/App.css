@@ -237,6 +237,38 @@ input {
   margin-right: 12px;
 }
 
+/*forecast section*/
+
+.forecast-icon {
+  height: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #95aef2;
+  border-radius: 35px;
+}
+
+.forecast-temp {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.forecast-day {
+  font-size: 23px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.forecast {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.forecast-column {
+  height: 180px;
+}
+
 @media (max-width: 600px) {
   input {
     width: 90px;
