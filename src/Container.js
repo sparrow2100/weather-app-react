@@ -21,7 +21,8 @@ export default function Container() {
       temperature: Math.round(response.data.temperature.current),
       description: response.data.condition.description,
       wind: Math.round(response.data.wind.speed),
-      date: new Date(response.data.time),
+      date: new Date(response.data.time * 1000),
+      weather: response.data.condition.icon_url,
     });
 
     setReady(true);
@@ -30,6 +31,8 @@ export default function Container() {
   function handleSubmit(event) {
     event.preventDefault();
     setReady(false);
+    setWeatherData({});
+    console.log(weatherData);
   }
 
   function changeCity(event) {
@@ -58,7 +61,7 @@ export default function Container() {
           <div className="temp">
             <img
               className="today"
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+              src={weatherData.weather}
               alt="weather icon"
             />
             <p className="blackText">
