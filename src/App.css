@@ -90,6 +90,13 @@ h1 {
   text-transform: uppercase;
 }
 
+.today {
+  margin-top: 25px !important;
+  margin-bottom: 5px;
+  background-color: #95aef2;
+  border-radius: 45px;
+}
+
 .temp {
   display: block;
   margin: 0 auto;
@@ -100,6 +107,11 @@ h1 {
   border-radius: 112.5px;
   font-size: 30px;
   border: 2px solid #95aef2;
+}
+
+.current {
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .temperature {
@@ -115,30 +127,16 @@ h1 {
   padding-top: 0 px;
 }
 
-.farenheit {
-  background: #a5bdfd;
-  color: #77529e;
-  width: 30px;
-  height: 30px;
-  border: none;
-  cursor: default;
+.weather {
+  font-size: 22px;
 }
 
-.farenheit:hover {
-  cursor: pointer;
+.windSpeed {
+  font-size: 22px;
 }
 
-.celsius {
-  border: none;
-  color: #77529e;
-  width: 30px;
-  height: 30px;
-  background: #a5bdfd;
-}
-
-.clicked {
-  cursor: default !important;
-  color: black;
+.wind {
+  font-size: 22px;
 }
 
 p {
@@ -164,6 +162,7 @@ p {
   background-color: #d9f2ff;
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
   width: 50%;
   border-radius: 25px;
   padding-top: 15px;

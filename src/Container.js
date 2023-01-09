@@ -54,10 +54,8 @@ export default function Container() {
 
           <h1 className="city">{city}</h1>
           <br />
-          <div className="currentLocation">
-            <button className="location">Current Location</button>
-          </div>
         </header>
+
         <section>
           <div className="temp">
             <img
@@ -82,12 +80,11 @@ export default function Container() {
             <FormattedDate date={weatherData.date} />
 
             <p className="weather">{weatherData.description}</p>
-            <p>
+            <p className="wind">
               Wind: <span className="windSpeed">{weatherData.wind}</span> km/h
             </p>
           </div>
         </section>
-        <WeatherForecast />
         <Break />
         <Footer />
       </div>
