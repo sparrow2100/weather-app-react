@@ -3,7 +3,6 @@ import axios from "axios";
 
 import Break from "./Break.js";
 import Footer from "./Footer.js";
-import WeatherForecast from "./WeatherForecast.js";
 
 import FormattedDate from "./FormattedDate.js";
 
